@@ -17,8 +17,7 @@
 
 AM_CPPFLAGS = -DLOCALEDIR=\"$(localedir)\" \
 	-I$(top_builddir)/lib \
-	-I$(top_srcdir)/lib \
-	$(READLINE_CPPFLAGS)
+	-I$(top_srcdir)/lib
 
 bin_PROGRAMS = ttdbcli
 
